@@ -1,0 +1,68 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('../img/robotics1.jpeg');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url('../img/robotics2.jpg');
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url('../img/robotics3.jpg');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: beige;
+}
+
+.ptext{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #666;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #777;
+    padding: 20px;
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+}
+
